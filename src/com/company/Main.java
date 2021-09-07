@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    // Time 1
+	// Time 1
         int hour = 21;
         int minute = 45;
         int second = 35;
@@ -23,7 +23,7 @@ public class Main {
 
         System.out.println("Seconds passed since midnight: " + totalSec);
         System.out.println("Seconds remaining today: " + remainToday);
-        System.out.printf("Percent of the day passed: %.2f\n", percentDayPassed);
+        System.out.printf("Percent of the day passed: %.2f %%\n", percentDayPassed);
         System.out.println("Time since work began: " + deltaTime + " seconds");
 
         if (minute > minute2){
